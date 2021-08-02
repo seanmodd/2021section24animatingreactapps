@@ -5,12 +5,6 @@ import {
   useColorMode,
   VStack,
 } from '@chakra-ui/react';
-import BackwardCounter from '../components/BackwardCounter';
-import ForwardCounter from '../components/ForwardCounter';
-import NewTask from '../components/NewTask/NewTask';
-import Tasks from '../components/Tasks/Tasks';
-// import useHttp from '.././hooks/useHttp';
-import useHttp from '../hooks/use-http';
 
 
 const Index = () => {
@@ -34,7 +28,7 @@ const Index = () => {
           align="center"
           color={textColor[colorMode]}
         >
-          Section idk: Building Custom Hooks
+          Section 24: Animating React Apps
         </Heading>
   
       
